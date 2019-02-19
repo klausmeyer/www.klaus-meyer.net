@@ -20,6 +20,14 @@
         </a>
       </div>
     {% endif %}
+    {% for profile in site.profiles %}
+      <div class="{{ metadata_styles }}">
+        {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:{{ profile.name }} %}
+        <a href="{{ profile.link }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ profile.name }}
+        </a>
+      </div>
+    {% endfor %}
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
