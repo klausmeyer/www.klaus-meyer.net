@@ -17,15 +17,22 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  # sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
-  exclude:
-    forks: true
-    projects:
+  # limit: 9
+  # exclude:
+  #   forks: true
+  #   projects:
     # - repo-name
+  list:
+    - klausmeyer/docker-registry-browser
+    - klausmeyer/ansible-mailserver
+    - klausmeyer/ansible-homelab
+    - klausmeyer/dotfiles
+    - klausmeyer/fritzbox-smarthome
+    - klausmeyer/inwx-update
 
 social_media:
   # behance: your_username
