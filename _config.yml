@@ -29,10 +29,10 @@ projects:
   #    - repo-name
   list:
     - klausmeyer/docker-registry-browser
+    - klausmeyer/whatchy
+    - klausmeyer/rubyup
     - klausmeyer/ansible-mailserver
     - klausmeyer/ansible-homelab
-    - klausmeyer/dotfiles
-    - klausmeyer/fritzbox-smarthome
     - klausmeyer/inwx-update
 
 # social_media:
