@@ -32,7 +32,7 @@ projects:
     - klausmeyer/whatchy
     - klausmeyer/rubyup
     - klausmeyer/ansible-mailserver
-    - klausmeyer/ansible-homelab
+    - klausmeyer/ansible-k8s
     - klausmeyer/inwx-update
 
 # social_media:
@@ -62,17 +62,17 @@ topics:
     web_url: https://github.com/topics/rails
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/rails/rails.png
 
-  - name: Elixir
-    web_url: https://github.com/topics/elixir
-    image_url: https://raw.githubusercontent.com/github/explore/master/topics/elixir/elixir.png
+  - name: Go
+    web_url: https://github.com/topics/go
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/go/go.png
+
+  - name: Kubernetes
+    web_url: https://github.com/topics/kubernetes
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/kubernetes/kubernetes.png
 
   - name: Docker
     web_url: https://github.com/topics/docker
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/docker/docker.png
-
-  - name: AWS
-    web_url: https://github.com/topics/aws
-    image_url: https://raw.githubusercontent.com/github/explore/master/topics/aws/aws.png
 
   - name: Ansible
     web_url: https://github.com/topics/ansible
