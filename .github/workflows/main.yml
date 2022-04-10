@@ -1,5 +1,7 @@
 name: Update GitHub pages
 on:
+  workflow_dispatch:
+
   schedule:
     - cron: '47 11 * * *'
 
