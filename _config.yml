@@ -30,10 +30,7 @@ projects:
   list:
     - klausmeyer/docker-registry-browser
     - klausmeyer/whatchy
-    - klausmeyer/rubyup
-    - klausmeyer/ansible-mailserver
-    - klausmeyer/ansible-k8s
-    - klausmeyer/inwx-update
+    - klausmeyer/oopsy
 
 # social_media:
   # behance: your_username
