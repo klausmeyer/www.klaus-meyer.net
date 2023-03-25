@@ -79,6 +79,10 @@ profiles:
   - name: Twitter
     link: https://twitter.com/onkelhotte
 
+  - name: Mastodon
+    link: https://mastodon.social/@onkelhotte
+    rel: me
+
   - name: LinkedIn
     link: https://www.linkedin.com/in/klaus-meyer
 

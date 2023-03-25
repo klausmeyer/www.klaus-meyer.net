@@ -23,7 +23,7 @@
     {% for profile in site.profiles %}
       <div class="{{ metadata_styles }}">
         {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:{{ profile.name }} %}
-        <a href="{{ profile.link }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        <a href="{{ profile.link }}" {% if site.style == 'dark' %}class="text-white"{% endif %} {% if profile.rel %}rel="{{ profile.rel }}"{% endif %}>
           {{ profile.name }}
         </a>
       </div>
