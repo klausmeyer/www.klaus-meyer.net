@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub API Request
-        uses: octokit/request-action@v2.1.0
+        uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d # octokit/request-action/issues/315
         with:
           route: POST /repos/${{github.repository}}/pages/builds
         env:
