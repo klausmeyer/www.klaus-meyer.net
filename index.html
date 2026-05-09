@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Klaus Meyer — Senior Software Developer</title>
+    <meta
+      name="description"
+      content="Klaus Meyer — Senior Software Developer"
+    />
+
+    <meta property="og:title" content="Klaus Meyer" />
+    <meta property="og:description" content="Senior Software Developer" />
+    <meta property="og:type" content="website" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="assets/site.css" />
+
+    <link rel="icon" href="assets/cat.png" type="image/png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Klaus Meyer",
+        "jobTitle": "Senior Software Developer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Bavaria",
+          "addressCountry": "DE"
+        },
+        "email": "mail+website@klaus-meyer.net",
+        "sameAs": [
+          "https://github.com/klausmeyer",
+          "https://www.linkedin.com/in/klaus-meyer/",
+          "https://www.xing.com/profile/Klaus_Meyer321"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <main class="container vcard-wrap">
+      <article class="vcard" aria-label="Klaus Meyer vCard">
+        <header class="vcard__header">
+          <img class="logo" src="assets/cat.png" alt="Klaus Meyer" width="64" height="64" />
+          <div>
+            <hgroup>
+              <h1>Klaus Meyer</h1>
+              <p>Senior Software Developer</p>
+            </hgroup>
+          </div>
+        </header>
+
+        <div class="vcard__actions" role="group" aria-label="Contact links">
+          <a href="mailto:mail+website@klaus-meyer.net" role="button">E-Mail</a>
+          <a
+            href="https://github.com/klausmeyer"
+            role="button"
+            class="secondary"
+            target="_blank"
+            rel="me noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/klaus-meyer/"
+            role="button"
+            class="secondary"
+            target="_blank"
+            rel="me noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.xing.com/profile/Klaus_Meyer321"
+            role="button"
+            class="secondary"
+            target="_blank"
+            rel="me noopener noreferrer"
+            >Xing</a
+          >
+        </div>
+
+        <footer class="vcard__footer">
+          <small class="muted">© <span id="year">2026</span> Klaus Meyer</small>
+        </footer>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
